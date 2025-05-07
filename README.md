@@ -33,13 +33,12 @@ void loop() {
 Note: This library is designed specifically for ESP32 boards using the Arduino framework. It uses hw_timer_t and attachInterrupt for reliable pulse measurement.
 
 ## Basic Circuit
-![LMT01 basic circuit](https://github.com/import-tiago/LMT01-Library/blob/main/assets/circuit.png?raw=true)
+![LMT01 basic circuit](assets/circuit.png)
 
 ## Serial Terminal Output
-![LMT01 basic circuit](https://github.com/import-tiago/LMT01-Library/blob/main/assets/terminal.png?raw=true)
+![LMT01 serial output](assets/terminal.png)
 
 ## Compatibility
-
 This library was tested with:
 
 - **ESP32 Arduino Core v3.2.0**  
