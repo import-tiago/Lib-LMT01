@@ -5,7 +5,6 @@ An Arduino-compatible library for the **ESP32** platform that interfaces with th
 ## Key Features
 
 - Works with ESP32 (Arduino framework)
-- Accurate readings from the LMT01 sensor (±0.5 °C typical)
 - No analog pins required — digital pulses are counted instead
 - Hardware timer-based measurement window
 - Temperature output in Celsius
