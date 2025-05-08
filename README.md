@@ -29,7 +29,7 @@ void loop() {
 }
 ```
 
-Note: This library is designed specifically for ESP32 boards using the Arduino framework. It uses hw_timer_t and attachInterrupt for reliable pulse measurement.
+> Note: This library is designed specifically for ESP32 boards using the Arduino framework. It uses hw_timer_t and attachInterrupt for reliable pulse measurement.
 
 ## Basic Circuit
 ![LMT01 basic circuit](assets/circuit.png)
