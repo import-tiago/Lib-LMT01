@@ -14,6 +14,9 @@ An Arduino-compatible library for the **ESP32** platform that interfaces with th
 ```cpp
 #include "LMT01.h"
 
+#define LMT01_PULSES_PIN 41
+#define LMT01_PWR_PIN 2
+
 LMT01 sensor(LMT01_PULSES_PIN, LMT01_PWR_PIN, 130); // 130ms window
 
 void setup() {
