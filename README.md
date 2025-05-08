@@ -39,7 +39,7 @@ void loop() {
 
 # Concepts ([Datasheet](assets/LMT01.pdf))
 ## Time Window Definition
-![LMT01 Time Window](assets/time_windows.png)
+![LMT01 Time Window](assets/time_window.png)
 
 ## Transfer Function
 The output transfer function is approximately linear and can be expressed as:
