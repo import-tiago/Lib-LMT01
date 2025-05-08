@@ -37,6 +37,21 @@ void loop() {
 ## Serial Terminal Output
 ![LMT01 serial output](assets/terminal.png)
 
+# Concepts ([Datasheet](assets/LMT01.pdf))
+## Time Window Definition
+![LMT01 Time Window](assets/time-windows.png)
+
+## Transfer Function
+The output transfer function is approximately linear and can be expressed as:
+
+$$
+\text{Temp} = \left( \frac{\text{PC}}{4096} \times 256^\circ\text{C} \right) - 50^\circ\text{C}
+$$
+
+Where:
+- **PC** is the number of pulses counted within the defined time window.
+- **Temp** is the resulting temperature in degrees Celsius.
+
 ## Compatibility
 This library was tested with:
 
