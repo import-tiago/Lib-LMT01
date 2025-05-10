@@ -40,6 +40,7 @@ void loop() {
 
 ## Basic Circuit
 ![LMT01 basic circuit](assets/circuit.png)
+> Internal pull-up enabled by the library.
 
 ## Serial Output
 ![LMT01 serial output](assets/terminal.png)
