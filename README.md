@@ -37,7 +37,7 @@ void loop() {
 ## Basic Circuit
 ![LMT01 basic circuit](assets/circuit.png)
 
-## Serial Terminal Output
+## Serial Output
 ![LMT01 serial output](assets/terminal.png)
 > Temperature variation from an ambient temperature of around 25 °C up to approximately 60 °C (achieved by placing the sensor in contact with water preheated in the microwave for about 40 seconds).
 
