@@ -12,6 +12,8 @@ An Arduino-compatible library for the **ESP32** platform that interfaces with th
 - No analog pins required — digital pulses are counted instead
 - Hardware timer-based measurement window
 - Temperature output in Celsius
+- Ultra-low power consumption: typically 34 µA to 125 µA during the temperature-to-digital conversion process.
+- High accuracy over –50 °C to 150 °C: ±0.5 °C (–20 °C to 90 °C), ±0.625 °C (90 °C to 150 °C), ±0.7 °C (–50 °C to –20 °C)
 
 ## Basic Usage
 
