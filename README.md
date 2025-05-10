@@ -39,6 +39,7 @@ void loop() {
 
 ## Serial Terminal Output
 ![LMT01 serial output](assets/terminal.png)
+> Temperature variation from an ambient temperature of around 25 °C up to approximately 60 °C (achieved by placing the sensor in contact with water preheated in the microwave for about 40 seconds).
 
 # Concepts ([Datasheet](assets/LMT01.pdf))
 ## Time Window Definition
