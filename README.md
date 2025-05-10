@@ -2,6 +2,10 @@
 
 An Arduino-compatible library for the **ESP32** platform that interfaces with the Texas Instruments **LMT01** digital temperature sensor using a **pulse-counting** method and hardware timer.
 
+<p align="center">
+  <img src="assets/part.png" alt="Part Image" width="300">
+</p>
+
 ## Key Features
 
 - Works with ESP32 (Arduino framework)
