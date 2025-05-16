@@ -2,12 +2,18 @@
 
 An Arduino-compatible library for the **ESP32** platform that interfaces with the Texas Instruments **LMT01** digital temperature sensor using a **pulse-counting** method and hardware timer.
 
+<p align="center">
+  <img src="assets/part.png" alt="Part Image" width="300">
+</p>
+
 ## Key Features
 
 - Works with ESP32 (Arduino framework)
 - No analog pins required — digital pulses are counted instead
 - Hardware timer-based measurement window
 - Temperature output in Celsius
+- Ultra-low power consumption: typically 34 µA to 125 µA during the temperature-to-digital conversion process.
+- High accuracy: ±0.5 °C (–20 °C to 90 °C), ±0.625 °C (90 °C to 150 °C), ±0.7 °C (–50 °C to –20 °C)
 
 ## Basic Usage
 
@@ -36,6 +42,7 @@ void loop() {
 
 ## Basic Circuit
 ![LMT01 basic circuit](assets/circuit.png)
+> Internal pull-up enabled by the library.
 
 ## Serial Output
 ![LMT01 serial output](assets/terminal.png)
